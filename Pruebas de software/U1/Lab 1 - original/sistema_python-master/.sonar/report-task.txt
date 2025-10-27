@@ -1,0 +1,6 @@
+projectKey=sistema_python-master
+serverUrl=http://localhost:9000
+serverVersion=25.10.0.114319
+dashboardUrl=http://localhost:9000/dashboard?id=sistema_python-master
+ceTaskId=997aad63-58a5-4818-9ea8-d3758fca82de
+ceTaskUrl=http://localhost:9000/api/ce/task?id=997aad63-58a5-4818-9ea8-d3758fca82de

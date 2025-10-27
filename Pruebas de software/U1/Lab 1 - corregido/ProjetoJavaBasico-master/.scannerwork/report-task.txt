@@ -1,0 +1,6 @@
+projectKey=ProjetoJavaBasico-master
+serverUrl=http://localhost:9000
+serverVersion=25.10.0.114319
+dashboardUrl=http://localhost:9000/dashboard?id=ProjetoJavaBasico-master
+ceTaskId=19ec7fe3-18c2-44b1-bd22-3449bb65251b
+ceTaskUrl=http://localhost:9000/api/ce/task?id=19ec7fe3-18c2-44b1-bd22-3449bb65251b
