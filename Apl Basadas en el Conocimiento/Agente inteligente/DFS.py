@@ -76,5 +76,5 @@ if __name__ == "__main__":
     agente_diagnostico_dfs(sintomas_1, base_conocimiento_anemia)
 
     # Caso 2: Paciente con Sangrado nasal
-    sintomas_2 = ['Sangrado nasal']
+    sintomas_2 = ['Unas quebradizas']
     agente_diagnostico_dfs(sintomas_2, base_conocimiento_anemia)
