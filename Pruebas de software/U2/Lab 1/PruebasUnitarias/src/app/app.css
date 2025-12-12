@@ -1,0 +1,144 @@
+/* Estilos básicos del contenedor */
+.contenedor {
+  width: 100%;
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+/* Estilos del formulario */
+.formulario {
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 30px;
+}
+
+/* Estilos del título */
+h1 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #666;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Formulario */
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Grupos de campos */
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form-group label {
+  color: #333;
+  font-weight: 500;
+  font-size: 0.95rem;
+  display: flex;
+  align-items: center;
+}
+/* Estilos de etiquetas */
+label {
+  display: block;
+  color: #333;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+/* Estilos de inputs */
+input[type='text'],
+input[type='email'],
+input[type='password'],
+input[type='number'] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+input:focus {
+  border-color: #4CAF50;
+  outline: none;
+}
+
+/* Estilos del checkbox */
+.checkbox {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.checkbox input[type='checkbox'] {
+  width: auto;
+  margin-right: 8px;
+}
+
+.checkbox label {
+  display: inline;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+/* Estilos de mensajes */
+.mensaje {
+  padding: 10px;
+  border-radius: 3px;
+  margin: 15px 0;
+  text-align: center;
+}
+
+.error {
+  background-color: #ffcccc;
+  color: #cc0000;
+  border: 1px solid #cc0000;
+}
+
+.exito {
+  background-color: #ccffcc;
+  color: #008000;
+  border: 1px solid #008000;
+}
+
+/* Estilos de botones */
+button {
+  width: 48%;
+  padding: 12px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 3px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button[type='submit'] {
+  background-color: #4CAF50;
+  color: white;
+  margin-right: 4%;
+}
+
+button[type='submit']:hover {
+  background-color: #45a049;
+}
+
+button[type='button'] {
+  background-color: #999;
+  color: white;
+}
+
+button[type='button']:hover {
+  background-color: #777;
+}
